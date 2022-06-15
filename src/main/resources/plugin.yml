@@ -1,0 +1,8 @@
+name: SalmonPlugin
+version: '${project.version}'
+main: xyz.mlserver.salmonplugin.SalmonPlugin
+api-version: 1.19
+prefix: SalmonPlugin
+authors: [ Monster2408 ]
+description: This is Salmon Plugin
+website: https://monster2408.mlserver.jp
