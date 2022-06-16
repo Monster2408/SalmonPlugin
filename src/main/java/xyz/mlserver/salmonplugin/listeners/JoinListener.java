@@ -13,8 +13,8 @@ public class JoinListener implements Listener {
     public void on(PlayerJoinEvent e) {
         if (e.getPlayer().hasPlayedBefore()) return;
         e.setJoinMessage(ChatColor.YELLOW + e.getPlayer().getName() + "さんが新規で参加しました！");
-        e.getPlayer().getInventory().addItem(new ItemStack(Material.WOODEN_PICKAXE));
-        e.getPlayer().getInventory().addItem(new ItemStack(Material.WOODEN_AXE));
+        e.getPlayer().getInventory().addItem(new ItemStack(Material.STONE_PICKAXE));
+        e.getPlayer().getInventory().addItem(new ItemStack(Material.STONE_AXE));
         e.getPlayer().getInventory().addItem(new ItemStack(Material.BAKED_POTATO, 32));
     }
 
